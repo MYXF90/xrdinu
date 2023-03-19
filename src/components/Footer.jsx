@@ -12,7 +12,7 @@ const Footer = () => (
           className="w-[100px] h-[100px] object-contain rounded-3xl"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new way to make the payments easy, reliable and secure.
+        100x is a very plausible scenario
         </p>
       </div>
 

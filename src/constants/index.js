@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, people04, telegram, twitter, github, discord, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -14,8 +14,8 @@ export const navLinks = [
     title: "Product",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "team",
+    title: "Team",
   },
 ];
 
@@ -47,26 +47,34 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Switching from Solidity to Scrypto is like switching from the horse carriage to a lambo.",
+    name: "Ben",
+    title: "Founder & Developer",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Passianately learning and developing",
+    name: "Liz",
+    title: "Developer & Designer",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Bullish 🐂",
+    name: "Mark",
+    title: "Community manager",
     img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Let's get this memecoin party started on Radix",
+    name: "ZT",
+    title: "Designer & Meme connoisseur",
+    img: people04,
   },
 ];
 
@@ -95,62 +103,58 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.radixinu.com/content/",
+        name: "Documentation",
+        link: "https://radix-inu.gitbook.io/radix-inu-first-memecoin-on-radix/",
       },
       {
-        name: "How it Works",
-        link: "https://www.radixinu.com/how-it-works/",
+        name: "Tokenomics",
+        link: "https://radix-inu.gitbook.io/radix-inu-first-memecoin-on-radix/tokenomics",
       },
       {
-        name: "Create",
-        link: "https://www.radixinu.com/create/",
+        name: "Wallets & Addresses",
+        link: "https://radix-inu.gitbook.io/radix-inu-first-memecoin-on-radix/wallets-and-addresses",
       },
       {
-        name: "Explore",
-        link: "https://www.radixinu.com/explore/",
+        name: "Become a VC",
+        link: "https://forms.gle/EPt663kp13tVXTrL6",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.radixinu.com/terms-and-services/",
+        name: "Official Links",
+        link: "https://radix-inu.gitbook.io/radix-inu-first-memecoin-on-radix/official-links",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Socials",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.radixinu.com/help-center/",
+        name: "Twitter",
+        link: "https://twitter.com/xrdinu",
       },
       {
-        name: "Partners",
-        link: "https://www.radixinu.com/partners/",
+        name: "Telegram",
+        link: "https://t.me/xrdinu_official",
       },
       {
-        name: "Suggestions",
-        link: "https://www.radixinu.com/suggestions/",
+        name: "Github",
+        link: "https://github.com/MYXF90/radix-inu",
       },
       {
-        name: "Blog",
-        link: "https://www.radixinu.com/blog/",
+        name: "Discord",
+        link: "https://discord.gg/rUPYvekPj5",
       },
       {
-        name: "Newsletters",
-        link: "https://www.radixinu.com/newsletters/",
+        name: "Docs",
+        link: "https://radix-inu.gitbook.io/radix-inu-first-memecoin-on-radix/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Partnership",
     links: [
-      {
-        name: "Our Partner",
-        link: "https://www.radixinu.com/our-partner/",
-      },
       {
         name: "Become a Partner",
-        link: "https://www.radixinu.com/become-a-partner/",
+        link: "https://forms.gle/WpsStnVFBvGy5xWg6",
       },
     ],
   },
@@ -159,41 +163,23 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: telegram,
+    link: "https://t.me/xrdinu_official",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: github,
+    link: "https://github.com/MYXF90/radix-inu",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/xrdinu",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: discord,
+    link: "https://discord.gg/rUPYvekPj5",
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
