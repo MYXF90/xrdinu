@@ -80,19 +80,19 @@ export const feedback = [
 
 export const stats = [
   {
-    id: "stats-2",
+    id: "stats-1",
     title: "Native",
     value: "Radix",
   },
   
   {
-    id: "stats-3",
+    id: "stats-2",
     title: "for the community",
     value: "Developed",
   },
 
   {
-    id: "stats-1",
+    id: "stats-3",
     title: "Total Supply",
     value: "1.000.000.000",
   },
