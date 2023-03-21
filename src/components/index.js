@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import SaleMain from "./SaleMain";
+import SaleButton from "./SaleButton";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Testimonials,
   Hero,
   SaleMain,
+  SaleButton,
 };

@@ -3,6 +3,7 @@ import { RadixDappToolkit } from '@radixdlt/radix-dapp-toolkit'
 import { SaleMain, Footer } from '../components'
 import { NavLink } from "react-router-dom";
 import styles from "../style"
+import { logo } from "../assets";
 
 const rdt = RadixDappToolkit(
     {
@@ -34,11 +35,12 @@ const Sale = () => (
             <div className={`${styles.boxWidth}`}>
                 <nav className="w-full flex py-6 justify-between items-center navbar">
                     <div className="bg-primary w-full">
-                        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-                            <div className={`${styles.boxWidth}`}>
+                        <nav className="w-full flex py-6 justify-between items-center navbar">
+                            <NavLink to="/"><img src={logo} alt="radixinu" className="w-[50px] h-[50px] rounded-2xl" /></NavLink>
+                            <div className={`list-none sm:flex hidden justify-end items-center flex-1`}>
                                 <radix-connect-button />
                             </div>
-                        </div>
+                        </nav>
                     </div>
                 </nav>
                 <div className={`bg-primary ${styles.flexStart}`}>

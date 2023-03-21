@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Button = ({ styles }) => (
-  <a href="https://forms.gle/tgz3xmF1vVbQMnxp6" target="_blank">
+const SaleButton = ({ styles }) => (
+  <NavLink to="sale">
   <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-    Phase 1 VC
+    Phase 2 VC
   </button>
-  </a>
+  </NavLink>
 );
 
-export default Button;
+export default SaleButton;
