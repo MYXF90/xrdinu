@@ -1,7 +1,7 @@
 import React from 'react'
 import { RadixDappToolkit } from '@radixdlt/radix-dapp-toolkit'
 import { SaleMain, Footer } from '../components'
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "../style"
 import { logo } from "../assets";
 
@@ -36,7 +36,7 @@ const Sale = () => (
                 <nav className="w-full flex py-6 justify-between items-center navbar">
                     <div className="bg-primary w-full">
                         <nav className="w-full flex py-6 justify-between items-center navbar">
-                            <NavLink to="/"><img src={logo} alt="radixinu" className="w-[50px] h-[50px] rounded-2xl" /></NavLink>
+                            <Link to="/"><img src={logo} alt="radixinu" className="w-[50px] h-[50px] rounded-2xl" /></Link>
                             <div className={`list-none sm:flex hidden justify-end items-center flex-1`}>
                                 <radix-connect-button />
                             </div>
