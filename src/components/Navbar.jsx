@@ -1,7 +1,7 @@
 import { useState } from "react";
-
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,14 +9,14 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="radixinu" className="w-[50px] h-[50px] rounded-2xl" />
+      
+      <NavLink to="/"><img src={logo} alt="radixinu" className="w-[50px] h-[50px] rounded-2xl" /></NavLink>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
