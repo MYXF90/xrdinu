@@ -9,6 +9,8 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import SaleMain from "./SaleMain";
 import Phase2 from "./Phase2";
+import CountdownTimer from "./CountdownTimer";
+import DateTimeDisplay from "./DateTimeDisplay";
 
 export {
   Navbar,
@@ -22,4 +24,6 @@ export {
   Hero,
   SaleMain,
   Phase2,
+  CountdownTimer,
+  DateTimeDisplay,
 };
