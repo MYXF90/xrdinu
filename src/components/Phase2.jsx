@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const SaleButton = ({ styles }) => (
+const Phase2 = ({ styles }) => (
   <NavLink to="sale">
   <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
     Phase 2 VC
@@ -9,4 +9,4 @@ const SaleButton = ({ styles }) => (
   </NavLink>
 );
 
-export default SaleButton;
+export default Phase2;
