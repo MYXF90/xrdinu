@@ -25,11 +25,10 @@ const CTA = () => (
 
       </div>
       <div className={`flex flex-row`}>
-        <Phase1/>
-        
-        <Phase2/>
+        <Phase1 />
+        <Phase2 />
       </div>
-    
+
     </section >
 
 
