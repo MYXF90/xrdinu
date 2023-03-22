@@ -11,6 +11,7 @@ import SaleMain from "./SaleMain";
 import Phase2 from "./Phase2";
 import CountdownTimer from "./CountdownTimer";
 import DateTimeDisplay from "./DateTimeDisplay";
+import SalePhase1 from "./SalePhase1";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   Phase2,
   CountdownTimer,
   DateTimeDisplay,
+  SalePhase1,
 };

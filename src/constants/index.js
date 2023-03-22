@@ -91,8 +91,8 @@ export const stats = [
   
   {
     id: "stats-2",
-    title: "for the community",
-    value: "Developed",
+    title: " $0.0025",
+    value: "Token price",
   },
 
   {
