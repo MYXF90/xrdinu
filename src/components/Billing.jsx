@@ -19,7 +19,7 @@ const Billing = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         When the next bullrun comes the Radix ecosystem will be on fire. <br/> <br/>
         In that bullrun, a memecoin rally will come, that will make 
-        every Radix Inu holder happy they discovered it so early.
+        every XRDINU holder happy they discovered it so early.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

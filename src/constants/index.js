@@ -29,7 +29,7 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "Become eligible for rewards by holding the Radix Inu token in your Radix Wallet",
+      "Become eligible for rewards by holding the XRDINU token in your Radix Wallet",
   },
   {
     id: "feature-2",

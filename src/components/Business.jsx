@@ -27,7 +27,7 @@ const Business = () =>  (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Radix-Engine-v1 $XRDINU (current version) token holders will be 
         issued a soul-bound NFT which will grant them first class citizen 
-        rights in the Radix Inu community and ecosystem.
+        rights in the XRDINU community and ecosystem.
       </p>
 
       {/* <Button styles={`mt-10`} /> */}
