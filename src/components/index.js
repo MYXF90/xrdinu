@@ -12,6 +12,7 @@ import Phase2 from "./Phase2";
 import CountdownTimer from "./CountdownTimer";
 import DateTimeDisplay from "./DateTimeDisplay";
 import SalePhase1 from "./SalePhase1";
+import Airdrop from "./Airdrop";
 
 export {
   Navbar,
@@ -28,4 +29,5 @@ export {
   CountdownTimer,
   DateTimeDisplay,
   SalePhase1,
+  Airdrop,
 };
