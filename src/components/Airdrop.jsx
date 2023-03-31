@@ -4,9 +4,7 @@ import styles from "../style";
 
 const Airdrop = ({ styles }) => (
   <section>
-    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
-
-    <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-4 mb-2 relative z-[1]">
+        <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-4 mb-2 relative z-[1]">
 
       <div className="w-full md:mt-0 mt-2">
         <p className={`text-left max-w-[450px] text-white m-2 py-1 px-1 font-poppins font-medium text-[18px]`}>
