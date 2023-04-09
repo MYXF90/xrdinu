@@ -6,7 +6,7 @@ const ExpiredNotice = () => {
     return (
         <div className="expired-notice">
             <span>Phase 1 over.</span>
-            <p>Please see instructions for Phase 2.</p>
+            <p>Please see instructions for Phase 2.</p> 
         </div>
     );
 };
