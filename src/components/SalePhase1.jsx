@@ -1,7 +1,7 @@
 import Phase1 from "./Phase1";
 import CountdownTimer from './CountdownTimer';
 
-const targetDate = new Date("2023-06-01");
+const targetDate = new Date("2023-08-01");
 
 const Hero = () => {
   return (
